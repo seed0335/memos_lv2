@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.util.Optional;
 
 @Service
-public class BoardService {
+public class BoardService {//
 
     private final BoardRepository boardRepository;
     private final UserRepository userRepository;

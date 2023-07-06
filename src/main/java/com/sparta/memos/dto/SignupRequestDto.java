@@ -8,7 +8,7 @@ import lombok.ToString;
 @ToString
 @Setter
 @Getter
-public class SignupRequestDto {
+public class SignupRequestDto {//
 
     @NotBlank
     private String username;
