@@ -101,7 +101,6 @@ public class JwtUtil {
         }
         return false;
     }
-    //
     // JWT에서 사용자 정보 가져오기
     // 토큰에서 사용자 정보 가져오기
     public Claims getUserInfoFromToken(String token) {
